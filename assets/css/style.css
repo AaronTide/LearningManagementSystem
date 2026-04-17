@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+/*Global styles */
+*{
+    font-family: "Roboto Serif", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root{
+ --blue: #4b73af;
+--white:#fff;
+---black1: #222;
+--black2: #999;
+--red:#9b5050;
+
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    position:relative;
+    width: 100%;
+}
+
+.navigation{
+    position:fixed;
+    width:300px;
+    height: 100%;
+    background: var(--red);
+    border-left: 10px solid var(--red);
+    transition: 0.5s;
+    overflow: hidden;
+
+}
