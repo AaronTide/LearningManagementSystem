@@ -27,7 +27,7 @@ body{
     position:relative;
     width: 100%;
 }
-
+/* nav */
 .navigation{
     position:fixed;
     width:300px;
@@ -37,4 +37,39 @@ body{
     transition: 0.5s;
     overflow: hidden;
 
+}
+
+.navigation ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+
+}
+
+.navigation ul li{
+     position:relative;
+     width: 100%;
+     list-style: none;
+}
+
+.navigation ul li:hover {
+    background-color: var(--white);
+}
+.navigation ul li:nth-child(1){
+    margin-bottom:40px;
+    pointer-events:none;
+}
+
+.navigation ul li a {
+  position: relative;
+  display:block;
+  width:100%;
+  display:flex;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navigation ul li:hover a{
+    color: var(--blue);
 }
